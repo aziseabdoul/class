@@ -1,0 +1,41 @@
+#conteneur {
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.carre {
+    height: 80px;
+    width: 80px;
+    border: 1px solid purple;
+    margin-bottom: 30px;
+}
+
+.cercle {
+    height: 80px;
+    width: 80px;
+    border: 1px solid purple;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.losange {
+    height: 80px;
+    width: 80px;
+    border: 1px solid purple;
+    margin-bottom: 30px;
+    -moz-transform: rotate(45deg);
+}
+
+.col1, .col2, .col3, .col4, .col5 {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.fill {
+    background-color: blue;
+}
+
+.buttons{
+    text-align: center;
+}
